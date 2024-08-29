@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Link from "next/link";
+import Navigation from "./component/navigation";
 
 export default function Home() {
-  return <h1>Hello NextJs</h1>;
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
 }
