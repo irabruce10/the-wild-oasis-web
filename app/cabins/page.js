@@ -8,9 +8,7 @@ export default async function page() {
 
       <ul>
         {data.map((user) => (
-          <li key={user.id}>
-            {user.name} - {user.email}
-          </li>
+          <li key={user.id}>{user.name}</li>
         ))}
       </ul>
     </div>
