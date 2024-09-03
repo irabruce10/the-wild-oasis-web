@@ -31,6 +31,8 @@ export default function RootLayout({ children }) {
           <main className=" mx-auto max-w-7xl">{children}</main>
         </div>
 
+        {/* tomorrow */}
+
         <footer>@ 2024 Oasis. All rights reserved.</footer>
       </body>
     </html>
