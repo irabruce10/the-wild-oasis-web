@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
          bg-primary-950 text-primary-100
           min-h-screen flex flex-col
           antialiased
+          relative
 
           `}>
         <Header />
@@ -30,8 +31,6 @@ export default function RootLayout({ children }) {
         <div className="flex-1 px-8 py-12">
           <main className=" mx-auto max-w-7xl">{children}</main>
         </div>
-
-        {/* tomorrowdfdfd */}
 
         <footer>@ 2024 Oasis. All rights reserved.</footer>
       </body>
